@@ -15,7 +15,7 @@ const IndianCovid=()=>{
     },[]);
     return (
         <>
-        <h1 style={{textAlign:'center'}}>INDIA <CameraIcon/> COVID 19 STATEWISE DASHBOARD</h1>
+        <h1 style={{textAlign:'center',backgroundColor: 'wheat'}}>INDIA <CameraIcon className="icon"/> COVID 19 STATEWISE DASHBOARD</h1>
         <div className="table table-responsive">
             <table className="table table-dark">
                 <thead>
